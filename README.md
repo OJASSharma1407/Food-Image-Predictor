@@ -1,6 +1,8 @@
 # Food-Image-Predictor
 Trained a CNN model using Transfer learning on custom image dataset
 
+> **Note:** The model may produce incorrect predictions occasionally due to underfitting (GPU training limits were exhausted during development).
+
 ## Project Structure
 
 ```
