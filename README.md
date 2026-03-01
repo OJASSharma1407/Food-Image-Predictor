@@ -19,7 +19,7 @@ Food-Image-Predictor/
 │   ├── style.css       # Styling
 │   └── script.js       # Frontend logic
 │
-├── models/             # Trained model files (.h5, .keras, .pth)
+├── models/             # Trained model files (.pth)
 │
 ├── notebooks/          # Jupyter notebooks for training
 │
@@ -32,16 +32,13 @@ Food-Image-Predictor/
 
 ## Setup
 
-### Backend (Render)
+### Backend 
 1. Navigate to `backend/`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run: `uvicorn main:app --reload`
 
-### Frontend (Vercel)
+### Frontend 
 1. Navigate to `frontend/`
 2. Open `index.html` in browser for local testing
-3. Deploy to Vercel
 
-## Deployment
-- **Backend**: Deploy to Render
-- **Frontend**: Deploy to Vercel
+
